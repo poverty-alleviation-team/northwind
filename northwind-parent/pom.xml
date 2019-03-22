@@ -8,7 +8,10 @@
     <artifactId>northwind-parent</artifactId>
     <version>1.0.0</version>
     <modules>
-        <module>../northwind</module>
+        <module>northwind-entity</module>
+        <module>northwind-dao</module>
+        <module>northwind-service</module>
+        <module>northwind-controller</module>
     </modules>
     <packaging>pom</packaging>
 

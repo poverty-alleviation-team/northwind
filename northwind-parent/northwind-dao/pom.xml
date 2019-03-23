@@ -11,5 +11,22 @@
 
     <artifactId>northwind-dao</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.strive</groupId>
+            <artifactId>northwind-entity</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.flowable</groupId>
+            <artifactId>flowable-spring-boot-starter-basic</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

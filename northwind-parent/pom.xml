@@ -11,7 +11,8 @@
         <module>northwind-entity</module>
         <module>northwind-dao</module>
         <module>northwind-service</module>
-        <module>northwind-controller</module>
+        <module>northwind-api</module>
+        <module>northwind-api</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>northwind-service</artifactId>
+    <artifactId>northwind-api</artifactId>
 
     <dependencies>
         <dependency>
@@ -20,9 +20,8 @@
 
         <dependency>
             <groupId>com.strive</groupId>
-            <artifactId>northwind-dao</artifactId>
+            <artifactId>northwind-service</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
-
 </project>

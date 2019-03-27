@@ -12,6 +12,7 @@
         <module>northwind-dao</module>
         <module>northwind-service</module>
         <module>northwind-api</module>
+        <module>northwind-common</module>
     </modules>
     <packaging>pom</packaging>
 

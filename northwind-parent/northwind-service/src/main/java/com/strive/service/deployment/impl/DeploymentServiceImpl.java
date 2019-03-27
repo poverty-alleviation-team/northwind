@@ -13,10 +13,10 @@ import java.io.InputStream;
 import java.util.zip.ZipInputStream;
 
 /**
- * @ClassName: DeploymentServiceImpl
- * @Auther: Karl.Zhang
- * @Date: 2018/12/9 23:05
- * @Description: flowable流程部署方法实现类
+ * @ClassName DeploymentServiceImpl
+ * @author Karl.Zhang
+ * @Date 2018/12/9 23:05
+ * @Description flowable流程部署方法实现类
  */
 @Service
 public class DeploymentServiceImpl implements IDeploymentService {

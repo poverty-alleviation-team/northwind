@@ -6,8 +6,8 @@ import java.io.InputStream;
 import java.util.zip.ZipInputStream;
 
 /**
+ * @author Karl.Zhang
  * @ClassName: IDeploymentService
- * @Auther: Karl.Zhang
  * @Date: 2018/12/9 23:04
  * @Description: flyable流程部署方法接口类
  */

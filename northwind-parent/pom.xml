@@ -23,6 +23,7 @@
         <java.version>1.8</java.version>
         <mysql.version>5.1.46</mysql.version>
         <flowable.version>6.3.1</flowable.version>
+        <jwt.token.version>3.4.0</jwt.token.version>
     </properties>
 
     <parent>
@@ -33,17 +34,28 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!-- mysql相关依赖 -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
 
+            <!-- flowable相关依赖 -->
             <dependency>
                 <groupId>org.flowable</groupId>
                 <artifactId>flowable-spring-boot-starter-basic</artifactId>
                 <version>${flowable.version}</version>
             </dependency>
+
+            <!-- JwtToken相关依赖 -->
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${jwt.token.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
